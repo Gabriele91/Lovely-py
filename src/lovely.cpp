@@ -7,9 +7,9 @@
 //
 
 #include <lovely.hpp>
-#include <boost/python.hpp>
 #include <modules/system/System.h>
-
+#include <pybind11/pybind11.h>
+//ref
 
 const char * libname()
 {
@@ -20,14 +20,23 @@ const char * version()
     return "0.0.1";
 }
 
-BOOST_PYTHON_MODULE(lovely)
+PYBIND11_PLUGIN(lovely) 
 {
-    using namespace boost::python;
-    def("libname", libname);
-    def("version", version);
-    
-    using namespace love::system;
-    
-    class_<System>("System")
-        .def("getOS",&System::getOS);
+    //alias
+    namespace py = pybind11;
+    //module
+    py::module lovely("lovely", "lovely plugin");
+    //lib
+    lovely.def("libname", &libname, "That function return the name of library");
+    lovely.def("version", &version, "That function return the version of library");
+    //love system
+    {
+        using namespace love::system;
+        py::class_<System>(lovely, "Object")
+            .def("getOS", &System::getOS)
+            .def("openURL", &System::openURL)
+            .def("vibrate", &System::vibrate);
+    }
+    //return
+    return lovely.ptr();
 }

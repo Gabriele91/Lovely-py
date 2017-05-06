@@ -9,6 +9,6 @@
 #ifndef lovely_hpp
 #define lovely_hpp
 
-#include <stdio.h>
+
 
 #endif /* lovely_hpp */

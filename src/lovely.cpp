@@ -5,8 +5,11 @@
 //  Created by Gabriele Di Bari on 03/05/17.
 //  Copyright © 2017 Gabriele Di Bari. All rights reserved.
 //
+#define PYBIND11_EXPORT
+#define PYBIND11_CPP_STANDARD
+#define PYBIND11_PYTHON_VERSION 3.6
 #include <pybind11/pybind11.h>
-#include <lovely.hpp>
+//#include <lovely.hpp>
 //#include <modules/system/System.h>
 //alias
 namespace py = pybind11;

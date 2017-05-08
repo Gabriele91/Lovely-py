@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione\opengl">
+      <UniqueIdentifier>{c76cfc41-eef2-4ac4-b1a2-69ee82fdaa8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\opengl">
+      <UniqueIdentifier>{8411b328-99d6-499b-80b0-a78da26c2740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries">
+      <UniqueIdentifier>{09ea058d-6e08-4b87-87c6-ebcc76b901a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\glad">
+      <UniqueIdentifier>{aa61d37d-ff19-4239-ad26-4454cd67ccae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\lodepng">
+      <UniqueIdentifier>{e3007eef-14e0-4940-92e9-fdc303da9896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\stb">
+      <UniqueIdentifier>{f456db30-1bf6-4a5c-afaa-990e67086160}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\love\src\modules\graphics\Color.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\Graphics.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\Drawable.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\ParticleSystem.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\Quad.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\Volatile.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\Texture.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\opengl\Canvas.h">
+      <Filter>File di intestazione\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\opengl\Font.h">
+      <Filter>File di intestazione\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\opengl\GLBuffer.h">
+      <Filter>File di intestazione\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\opengl\Graphics.h">
+      <Filter>File di intestazione\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\opengl\Image.h">
+      <Filter>File di intestazione\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\opengl\Mesh.h">
+      <Filter>File di intestazione\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\opengl\OpenGL.h">
+      <Filter>File di intestazione\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\opengl\ParticleSystem.h">
+      <Filter>File di intestazione\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\opengl\Polyline.h">
+      <Filter>File di intestazione\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\opengl\Shader.h">
+      <Filter>File di intestazione\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\opengl\SpriteBatch.h">
+      <Filter>File di intestazione\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\opengl\Text.h">
+      <Filter>File di intestazione\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\graphics\opengl\Video.h">
+      <Filter>File di intestazione\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\libraries\glad\glad.hpp">
+      <Filter>libraries\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\libraries\glad\gladfuncs.hpp">
+      <Filter>libraries\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\libraries\lodepng\lodepng.h">
+      <Filter>libraries\lodepng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\libraries\stb\stb_image.h">
+      <Filter>libraries\stb</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\love\src\modules\graphics\Graphics.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\graphics\ParticleSystem.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\graphics\Quad.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\graphics\Texture.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\graphics\Volatile.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\graphics\opengl\SpriteBatch.cpp">
+      <Filter>File di origine\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\graphics\opengl\Video.cpp">
+      <Filter>File di origine\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\graphics\opengl\Text.cpp">
+      <Filter>File di origine\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\graphics\opengl\Polyline.cpp">
+      <Filter>File di origine\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\graphics\opengl\Shader.cpp">
+      <Filter>File di origine\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\graphics\opengl\ParticleSystem.cpp">
+      <Filter>File di origine\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\graphics\opengl\OpenGL.cpp">
+      <Filter>File di origine\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\graphics\opengl\Mesh.cpp">
+      <Filter>File di origine\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\graphics\opengl\Image.cpp">
+      <Filter>File di origine\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\graphics\opengl\Graphics.cpp">
+      <Filter>File di origine\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\graphics\opengl\GLBuffer.cpp">
+      <Filter>File di origine\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\graphics\opengl\Font.cpp">
+      <Filter>File di origine\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\graphics\opengl\Canvas.cpp">
+      <Filter>File di origine\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pywrap_graphics.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\libraries\glad\glad.cpp">
+      <Filter>libraries\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\libraries\lodepng\lodepng.cpp">
+      <Filter>libraries\lodepng</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

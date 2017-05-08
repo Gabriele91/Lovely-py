@@ -26,6 +26,7 @@ PYBIND11_PLUGIN(lovely)
     lovely.def("version", &version, "That function return the version of library");
     //sub module objs
 	{ auto love_system = lovely.def_submodule("system"); add_system_module(love_system); }
+	{ auto love_window = lovely.def_submodule("window"); add_window_module(love_window); }
     //return
     return lovely.ptr();
 }

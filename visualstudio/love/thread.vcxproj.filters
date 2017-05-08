@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione\sdl">
+      <UniqueIdentifier>{64ddd9fd-f359-4101-b013-833e271086f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\sdl">
+      <UniqueIdentifier>{5e0ef4ef-3b74-40ed-b89e-48574ae19715}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\love\src\modules\thread\Channel.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\thread\LuaThread.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\thread\ThreadModule.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\thread\threads.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\thread\sdl\Thread.cpp">
+      <Filter>File di origine\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\love\src\modules\thread\sdl\threads.cpp">
+      <Filter>File di origine\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pywrap_thread.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\love\src\modules\thread\Channel.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\thread\LuaThread.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\thread\Thread.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\thread\ThreadModule.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\thread\threads.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\thread\sdl\Thread.h">
+      <Filter>File di intestazione\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\love\src\modules\thread\sdl\threads.h">
+      <Filter>File di intestazione\sdl</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,41 @@
+//Lovely
+#include <lovely.hpp>
+// Love headers
+#include <modules/graphics/Color.h>
+#include <modules/graphics/Drawable.h>
+#include <modules/graphics/Graphics.h>
+#include <modules/graphics/ParticleSystem.h>
+#include <modules/graphics/Quad.h>
+#include <modules/graphics/Texture.h>
+#include <modules/graphics/Volatile.h>
+#include <modules/graphics/opengl/Canvas.h>
+#include <modules/graphics/opengl/Font.h>
+#include <modules/graphics/opengl/GLBuffer.h>
+#include <modules/graphics/opengl/Image.h>
+#include <modules/graphics/opengl/Mesh.h>
+#include <modules/graphics/opengl/OpenGL.h>
+#include <modules/graphics/opengl/ParticleSystem.h>
+#include <modules/graphics/opengl/Polyline.h>
+#include <modules/graphics/opengl/Shader.h>
+#include <modules/graphics/opengl/SpriteBatch.h>
+#include <modules/graphics/opengl/Text.h>
+#include <modules/graphics/opengl/Video.h>
+// Love implementation
+#include <modules/graphics/Graphics.cpp>
+#include <modules/graphics/ParticleSystem.cpp>
+#include <modules/graphics/Quad.cpp>
+#include <modules/graphics/Texture.cpp>
+#include <modules/graphics/Volatile.cpp>
+#include <modules/graphics/opengl/Canvas.cpp>
+#include <modules/graphics/opengl/Font.cpp>
+#include <modules/graphics/opengl/GLBuffer.cpp>
+#include <modules/graphics/opengl/Graphics.cpp>
+#include <modules/graphics/opengl/Image.cpp>
+#include <modules/graphics/opengl/Mesh.cpp>
+#include <modules/graphics/opengl/OpenGL.cpp>
+#include <modules/graphics/opengl/ParticleSystem.cpp>
+#include <modules/graphics/opengl/Polyline.cpp>
+#include <modules/graphics/opengl/Shader.cpp>
+#include <modules/graphics/opengl/SpriteBatch.cpp>
+#include <modules/graphics/opengl/Text.cpp>
+#include <modules/graphics/opengl/Video.cpp>
